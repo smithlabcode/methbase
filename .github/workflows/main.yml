@@ -10,7 +10,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: smithlabcode/methbase_private
-          path: methbase_private
       - name: See what's in logs
         run: |
           ls -lhR
