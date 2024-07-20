@@ -1,6 +1,14 @@
 # methbase
 Thousands of high-quality analyzed methylomes.
 
+The track hub can be turned on for human hg38 with this
+[link](http://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http://smithlab.usc.edu/methbase/data/methbase2/trackhub/hub.txt&genome=hg38&position=lastDbPos).
+
+At present the track hub file is here, but it migh move while things are settling:
+```text
+http://smithlab.usc.edu/methbase/data/methbase2/trackhub/hub.txt
+```
+
 If you would like to suggest a publicly available methylome for
 inclusion in methbase, please submit an issue
 [here](https://github.com/smithlabcode/methbase/issues).
