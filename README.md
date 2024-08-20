@@ -2,12 +2,14 @@
 Thousands of high-quality analyzed methylomes.
 
 The track hub can be turned on for human hg38 with this
-[link](http://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http://smithlab.usc.edu/methbase/data/methbase2/trackhub/hub.txt&genome=hg38&position=lastDbPos).
+[link](http://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http://smithlab.usc.edu/trackdata/methylation/hub.txt&genome=hg38&position=lastDbPos).
 
-At present the track hub file is here, but it migh move while things are settling:
+The track hub file is here:
 ```text
-http://smithlab.usc.edu/methbase/data/methbase2/trackhub/hub.txt
+http://smithlab.usc.edu/trackdata/methylation/hub.txt
 ```
+You should be able to find it among the public hubs in the list at the UCSC
+Genome Browser, and if not now, then soon.
 
 There's a chance this hub could be very slow. If you find it useful, and
 would like to see better performance, the best way to help is simply to let
