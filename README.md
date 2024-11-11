@@ -28,4 +28,4 @@ Currently the criteria are (somewhat arbitrary):
 
 - 0.9: Minimum bisulfite conversion rate.
 - 1.0: Minimum average coverage across the genome.
-- 0.8: Minimum fraction of CpG sites covered.
+- 0.7: Minimum fraction of CpG sites covered.
