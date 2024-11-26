@@ -29,3 +29,34 @@ Currently the criteria are (somewhat arbitrary):
 - 0.9: Minimum bisulfite conversion rate.
 - 1.0: Minimum average coverage across the genome.
 - 0.7: Minimum fraction of CpG sites covered.
+
+# Methylome features
+
+Moving forward, not all methylomes will have each kind of "feature" available
+through the track hub. The criteria are below (in progress). If you want something
+and you can't find it, possibly those features did not meet criteria. Please contact
+me to ask and I can check if they might have barely failed to meet the criteria
+and I might be able to adjust or provide them to you directly.
+
+## Hypomethylated regions (HMRs)
+
+These are identified with the `hmr` command in `dnmtools`, which is
+very similar to the tool I wrote for the Molaro (2011) paper. For
+MethBase, the analysis workflows attempt to identify HMRs in every
+high-quality methylome from a vertebrate species. This clearly won't
+make sense in all cases. In the most extreme example, cells with DNA
+methylation erased should not be understood in terms of "valleys" of
+low methylation. The approach I plan to implement will be to exclude
+HMRs when they seem to be driven by a different biological feature.
+This means identifying methylomes that are outliers. So far it seems
+like most methylomes with HMRs corresponding to promoters and
+enhancers have the following characteristics (which have been evident
+for the past 10 years):
+
+- Human: between 25K and 110K HMRs, with mean size between 750 bp and 4K bp.
+- Mouse: between 20K and 100K HMRs, with mean size between 750 bp and 3K bp.
+
+Eventually I plan to incorporate a sequential identification of PMDs
+and HMRs so that methylomes with PMDs can still have HMRs accurately
+identified. This will require revisiting some a fraction of the
+methylomes to re-run HMR identification.
