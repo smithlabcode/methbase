@@ -30,6 +30,44 @@ Currently the criteria are (somewhat arbitrary):
 - 1.0: Minimum average coverage across the genome.
 - 0.7: Minimum fraction of CpG sites covered.
 
+# Genomes
+
+MethBase2 includes methylomes for the following genomes. The number of
+methylomes for each genome changes continually:
+
+```text
+hg38      5720
+mm39      5594
+susScr11  422
+bosTau9   374
+danRer11  319
+rheMac10  268
+galGal6   208
+apiMel2   208
+rn7       196
+oviAri4   135
+panTro6   59
+canFam6   51
+oryLat2   22
+xenTro10  15
+macFas5   9
+felCat9   9
+monDom5   8
+gorGor6   6
+strPur2   4
+tetNig2   3
+ponAbe3   3
+equCab3   3
+ailMel1   3
+turTru2   1
+oryCun2   1
+ornAna2   1
+nomLeu3   1
+dm6       1
+ci3       1
+calMil1   1
+```
+
 # Methylome features
 
 Moving forward, not all methylomes will have each kind of "feature" available
