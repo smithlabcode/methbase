@@ -35,6 +35,7 @@ Currently the criteria are (somewhat arbitrary):
 MethBase2 includes methylomes for the following genomes. The number of
 methylomes for each genome changes continually:
 
+(as of 2025-12-01; 14,845 high-quality methylomes)
 (as of 2025-07-14; 14,011 high-quality methylomes)
 ```text
 hg38      6006
