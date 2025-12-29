@@ -35,37 +35,40 @@ Currently the criteria are (somewhat arbitrary):
 MethBase2 includes methylomes for the following genomes. The number of
 methylomes for each genome changes continually:
 
-(as of 2025-12-26; 15,092 high-quality methylomes)
-```text
-mm39      6256
-hg38      6222
-bosTau9   497
-susScr11  447
-danRer11  339
-rheMac10  262
-galGal6   220
-apiMel2   210
-rn7       201
-oviAri4   164
-canFam6   74
-panTro6   59
-monDom5   44
-oryLat2   22
-macFas5   21
-xenTro10  15
-felCat9   9
-gorGor6   6
-oryCun2   4
-strPur2   4
-ailMel1   3
-equCab3   3
-ponAbe3   3
-tetNig2   3
-calMil1   1
-nomLeu3   1
-ornAna2   1
-turTru2   1
-```
+(as of 2025-12-28; 15,196 high-quality methylomes)
+|  species              |  assembly  |  count  |
+|  :-                   |  :-        |  -:     |
+|  Mouse                |  mm39      |  6256   |
+|  Human                |  hg38      |  6222   |
+|  Cow                  |  bosTau9   |  497    |
+|  Pig                  |  susScr11  |  447    |
+|  Zebrafish            |  danRer11  |  339    |
+|  Rhesus               |  rheMac10  |  262    |
+|  Chicken              |  galGal6   |  220    |
+|  A. mellifera         |  apiMel2   |  210    |
+|  Rat                  |  rn7       |  201    |
+|  Sheep                |  oviAri4   |  164    |
+|  Dog                  |  canFam6   |  74     |
+|  Stickleback          |  gasAcu1   |  60     |
+|  Chimp                |  panTro6   |  59     |
+|  Opossum              |  monDom5   |  44     |
+|  Crab-eating macaque  |  macFas5   |  34     |
+|  Medaka               |  oryLat2   |  22     |
+|  Zebra finch          |  taeGut2   |  20     |
+|  X. tropicalis        |  xenTro10  |  15     |
+|  Fugu                 |  fr3       |  11     |
+|  Cat                  |  felCat9   |  9      |
+|  Gorilla              |  gorGor6   |  6      |
+|  S. purpuratus        |  strPur2   |  4      |
+|  Rabbit               |  oryCun2   |  4      |
+|  Tetraodon            |  tetNig2   |  3      |
+|  Panda                |  ailMel1   |  3      |
+|  Orangutan            |  ponAbe3   |  3      |
+|  Horse                |  equCab3   |  3      |
+|  Platypus             |  ornAna2   |  1      |
+|  Gibbon               |  nomLeu3   |  1      |
+|  Elephant shark       |  calMil1   |  1      |
+|  Dolphin              |  turTru2   |  1      |
 
 # Methylome features
 
