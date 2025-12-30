@@ -36,39 +36,39 @@ MethBase2 includes methylomes for the following genomes. The number of
 methylomes for each genome changes continually:
 
 (as of 2025-12-28; 15,196 high-quality methylomes)
-|  species              |  assembly  |  count  |
-|  :-                   |  :-        |  -:     |
-|  Mouse                |  mm39      |  6256   |
-|  Human                |  hg38      |  6222   |
-|  Cow                  |  bosTau9   |  497    |
-|  Pig                  |  susScr11  |  447    |
-|  Zebrafish            |  danRer11  |  339    |
-|  Rhesus               |  rheMac10  |  262    |
-|  Chicken              |  galGal6   |  220    |
-|  A. mellifera         |  apiMel2   |  210    |
-|  Rat                  |  rn7       |  201    |
-|  Sheep                |  oviAri4   |  164    |
-|  Dog                  |  canFam6   |  74     |
-|  Stickleback          |  gasAcu1   |  60     |
-|  Chimp                |  panTro6   |  59     |
-|  Opossum              |  monDom5   |  44     |
-|  Crab-eating macaque  |  macFas5   |  34     |
-|  Medaka               |  oryLat2   |  22     |
-|  Zebra finch          |  taeGut2   |  20     |
-|  X. tropicalis        |  xenTro10  |  15     |
-|  Fugu                 |  fr3       |  11     |
-|  Cat                  |  felCat9   |  9      |
-|  Gorilla              |  gorGor6   |  6      |
-|  S. purpuratus        |  strPur2   |  4      |
-|  Rabbit               |  oryCun2   |  4      |
-|  Tetraodon            |  tetNig2   |  3      |
-|  Panda                |  ailMel1   |  3      |
-|  Orangutan            |  ponAbe3   |  3      |
-|  Horse                |  equCab3   |  3      |
-|  Platypus             |  ornAna2   |  1      |
-|  Gibbon               |  nomLeu3   |  1      |
-|  Elephant shark       |  calMil1   |  1      |
-|  Dolphin              |  turTru2   |  1      |
+|  species              |  assembly                                                                                                                                                          |  count  |
+|  :-                   |  :-                                                                                                                                                                |  -:     |
+|  Mouse                |  [mm39](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=mm39&position=lastDbPos)          |  6256   |
+|  Human                |  [hg38](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=hg38&position=lastDbPos)          |  6222   |
+|  Cow                  |  [bosTau9](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=bosTau9&position=lastDbPos)    |  497    |
+|  Pig                  |  [susScr11](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=susScr11&position=lastDbPos)  |  447    |
+|  Zebrafish            |  [danRer11](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=danRer11&position=lastDbPos)  |  339    |
+|  Rhesus               |  [rheMac10](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=rheMac10&position=lastDbPos)  |  262    |
+|  Chicken              |  [galGal6](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=galGal6&position=lastDbPos)    |  220    |
+|  A. mellifera         |  [apiMel2](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=apiMel2&position=lastDbPos)    |  210    |
+|  Rat                  |  [rn7](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=rn7&position=lastDbPos)            |  201    |
+|  Sheep                |  [oviAri4](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=oviAri4&position=lastDbPos)    |  164    |
+|  Dog                  |  [canFam6](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=canFam6&position=lastDbPos)    |  74     |
+|  Stickleback          |  [gasAcu1](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=gasAcu1&position=lastDbPos)    |  60     |
+|  Chimp                |  [panTro6](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=panTro6&position=lastDbPos)    |  59     |
+|  Opossum              |  [monDom5](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=monDom5&position=lastDbPos)    |  44     |
+|  Crab-eating macaque  |  [macFas5](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=macFas5&position=lastDbPos)    |  34     |
+|  Medaka               |  [oryLat2](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=oryLat2&position=lastDbPos)    |  22     |
+|  Zebra finch          |  [taeGut2](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=taeGut2&position=lastDbPos)    |  20     |
+|  X. tropicalis        |  [xenTro10](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=xenTro10&position=lastDbPos)  |  15     |
+|  Fugu                 |  [fr3](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=fr3&position=lastDbPos)            |  11     |
+|  Cat                  |  [felCat9](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=felCat9&position=lastDbPos)    |  9      |
+|  Gorilla              |  [gorGor6](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=gorGor6&position=lastDbPos)    |  6      |
+|  S. purpuratus        |  [strPur2](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=strPur2&position=lastDbPos)    |  4      |
+|  Rabbit               |  [oryCun2](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=oryCun2&position=lastDbPos)    |  4      |
+|  Tetraodon            |  [tetNig2](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=tetNig2&position=lastDbPos)    |  3      |
+|  Panda                |  [ailMel1](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=ailMel1&position=lastDbPos)    |  3      |
+|  Orangutan            |  [ponAbe3](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=ponAbe3&position=lastDbPos)    |  3      |
+|  Horse                |  [equCab3](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=equCab3&position=lastDbPos)    |  3      |
+|  Platypus             |  [ornAna2](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=ornAna2&position=lastDbPos)    |  1      |
+|  Gibbon               |  [nomLeu3](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=nomLeu3&position=lastDbPos)    |  1      |
+|  Elephant shark       |  [calMil1](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=calMil1&position=lastDbPos)    |  1      |
+|  Dolphin              |  [turTru2](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=turTru2&position=lastDbPos)    |  1      |
 
 # Methylome features
 
