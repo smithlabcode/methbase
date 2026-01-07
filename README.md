@@ -34,11 +34,11 @@ Currently the criteria are (somewhat arbitrary):
 MethBase2 includes methylomes for the following genomes. The number of
 methylomes for each genome changes continually:
 
-**15,264** high-quality methylomes (as of 2026-01-05)
+**15,282** high-quality methylomes (as of 2026-01-07)
 |  species              |  assembly                                                                                                                                                          |  count  |
 |  :-                   |  :-                                                                                                                                                                |  -:     |
+|  Mouse                |  [mm39](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=mm39&position=lastDbPos)          |  6266   |
 |  Human                |  [hg38](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=hg38&position=lastDbPos)          |  6263   |
-|  Mouse                |  [mm39](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=mm39&position=lastDbPos)          |  6258   |
 |  Cow                  |  [bosTau9](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=bosTau9&position=lastDbPos)    |  497    |
 |  Pig                  |  [susScr11](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=susScr11&position=lastDbPos)  |  447    |
 |  Zebrafish            |  [danRer11](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=danRer11&position=lastDbPos)  |  339    |
@@ -47,7 +47,7 @@ methylomes for each genome changes continually:
 |  A. mellifera         |  [apiMel2](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=apiMel2&position=lastDbPos)    |  210    |
 |  Rat                  |  [rn7](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=rn7&position=lastDbPos)            |  201    |
 |  Sheep                |  [oviAri4](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=oviAri4&position=lastDbPos)    |  164    |
-|  Dog                  |  [canFam6](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=canFam6&position=lastDbPos)    |  74     |
+|  Dog                  |  [canFam6](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=canFam6&position=lastDbPos)    |  84     |
 |  Stickleback          |  [gasAcu1](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=gasAcu1&position=lastDbPos)    |  60     |
 |  Chimp                |  [panTro6](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=panTro6&position=lastDbPos)    |  59     |
 |  Opossum              |  [monDom5](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=monDom5&position=lastDbPos)    |  44     |
