@@ -34,10 +34,10 @@ Currently the criteria are (somewhat arbitrary):
 MethBase2 includes methylomes for the following genomes. The number of
 methylomes for each genome changes continually:
 
-**15,290** high-quality methylomes (as of 2026-01-08)
+**15,315** high-quality methylomes (as of 2026-01-18)
 |  species              |  assembly                                                                                                                                                          |  count  |
 |  :-                   |  :-                                                                                                                                                                |  -:     |
-|  Mouse                |  [mm39](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=mm39&position=lastDbPos)          |  6270   |
+|  Mouse                |  [mm39](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=mm39&position=lastDbPos)          |  6295   |
 |  Human                |  [hg38](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=hg38&position=lastDbPos)          |  6267   |
 |  Cow                  |  [bosTau9](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=bosTau9&position=lastDbPos)    |  497    |
 |  Pig                  |  [susScr11](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=susScr11&position=lastDbPos)  |  447    |
