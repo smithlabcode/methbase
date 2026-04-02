@@ -34,10 +34,10 @@ Currently the criteria are (somewhat arbitrary):
 MethBase includes methylomes for the following genomes. The number of
 methylomes for each genome changes continually:
 
-**15,632** high-quality methylomes (as of 2026-03-21)
+**15,638** high-quality methylomes (as of 2026-04-02)
 |  species              |  assembly                                                                                                                                                          |  count  |
 |  :-                   |  :-                                                                                                                                                                |  -:     |
-|  Mouse                |  [mm39](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=mm39&position=lastDbPos)          |  6403   |
+|  Mouse                |  [mm39](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=mm39&position=lastDbPos)          |  6405   |
 |  Human                |  [hg38](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=hg38&position=lastDbPos)          |  6369   |
 |  Cow                  |  [bosTau9](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=bosTau9&position=lastDbPos)    |  588    |
 |  Pig                  |  [susScr11](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=susScr11&position=lastDbPos)  |  447    |
@@ -55,7 +55,7 @@ methylomes for each genome changes continually:
 |  Medaka               |  [oryLat2](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=oryLat2&position=lastDbPos)    |  22     |
 |  Zebra finch          |  [taeGut2](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=taeGut2&position=lastDbPos)    |  20     |
 |  X. tropicalis        |  [xenTro10](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=xenTro10&position=lastDbPos)  |  15     |
-|  Fugu                 |  [fr3](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=fr3&position=lastDbPos)            |  11     |
+|  Fugu                 |  [fr3](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=fr3&position=lastDbPos)            |  15     |
 |  Cat                  |  [felCat9](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=felCat9&position=lastDbPos)    |  9      |
 |  Gorilla              |  [gorGor6](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=gorGor6&position=lastDbPos)    |  6      |
 |  S. purpuratus        |  [strPur2](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=strPur2&position=lastDbPos)    |  4      |
