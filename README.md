@@ -34,7 +34,7 @@ Currently the criteria are (somewhat arbitrary):
 MethBase includes methylomes for the following genomes. The number of
 methylomes for each genome changes continually:
 
-**16,067** high-quality methylomes (as of 2026-06-18)
+**16,073** high-quality methylomes (as of 2026-06-22)
 |  species              |  assembly                                                                                                                                                          |  count  |
 |  :-                   |  :-                                                                                                                                                                |  -:     |
 |  Mouse                |  [mm39](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=mm39&position=lastDbPos)          |  6619   |
@@ -42,7 +42,7 @@ methylomes for each genome changes continually:
 |  Cow                  |  [bosTau9](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=bosTau9&position=lastDbPos)    |  588    |
 |  Pig                  |  [susScr11](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=susScr11&position=lastDbPos)  |  473    |
 |  Zebrafish            |  [danRer11](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=danRer11&position=lastDbPos)  |  339    |
-|  Chicken              |  [galGal6](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=galGal6&position=lastDbPos)    |  277    |
+|  Chicken              |  [galGal6](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=galGal6&position=lastDbPos)    |  283    |
 |  Rhesus               |  [rheMac10](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=rheMac10&position=lastDbPos)  |  262    |
 |  A. mellifera         |  [apiMel2](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=apiMel2&position=lastDbPos)    |  210    |
 |  Rat                  |  [rn7](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=rn7&position=lastDbPos)            |  201    |
