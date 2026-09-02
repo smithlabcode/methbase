@@ -1,40 +1,25 @@
-# methbase
-Thousands of high-quality analyzed methylomes.
+# MethBase2
 
-The track hub can be turned on for human hg38 with this
+Thousands of high-quality uniformly analyzed methylomes.
+
+The UCSC Genome Browser provides visualization for methylomes in MethBase2.
+
+A track hub organized by SRA Study can be turned on for human hg38 with this
 [link](http://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http://smithlab.usc.edu/trackdata/methylation/hub.txt&genome=hg38&position=lastDbPos).
 
-The track hub file is here:
+This track hub URL can be used to load MethBase2 by SRA Study in any UCSC Genome
+Browser mirror:
 ```text
 http://smithlab.usc.edu/trackdata/methylation/hub.txt
 ```
-You can find it among the public hubs in the list at the UCSC Genome Browser.
+You can also find it among the public hubs in the list at the UCSC Genome
+Browser.
 
-There's a chance this hub could be very slow. If you find it useful, and
-would like to see better performance, the best way to help is simply to let
-me (Andrew) know, because allocating resources to hardware is only worth
-it if the resource will be used.
+## Data in MethBase2
 
-If you would like to suggest a publicly available methylome for
-inclusion in methbase, please submit an issue
-[here](https://github.com/smithlabcode/methbase/issues).
+MethBase2 includes methylomes for the following genomes. **16,223** high-quality
+methylomes (2026-09-01).
 
-The methbase database includes many more methylomes than are available
-for viewing with the methbase track hub. Those selected for the track
-hub meet criteria that help ensure they have been analyzed correctly.
-
-Currently the criteria are (somewhat arbitrary):
-
-- 0.9: Minimum bisulfite conversion rate.
-- 1.0: Minimum average coverage across the genome.
-- 0.7: Minimum fraction of CpG sites covered.
-
-# Genomes
-
-MethBase includes methylomes for the following genomes. The number of
-methylomes for each genome changes continually:
-
-**16,223** high-quality methylomes (as of 2026-09-01)
 |  species              |  assembly                                                                                                                                                          |  count  |
 |  :-                   |  :-                                                                                                                                                                |  -:     |
 |  Mouse                |  [mm39](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=mm39&position=lastDbPos)          |  6670   |
@@ -70,33 +55,46 @@ methylomes for each genome changes continually:
 |  Elephant shark       |  [calMil1](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=calMil1&position=lastDbPos)    |  1      |
 |  Dolphin              |  [turTru2](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=turTru2&position=lastDbPos)    |  1      |
 
-# Methylome features
+If you would like to suggest a publicly available methylome for inclusion,
+please submit an issue [here](https://github.com/smithlabcode/methbase/issues).
+
+The database includes many more methylomes than are available for viewing with
+the methbase track hub. Those selected for the track hub meet criteria that help
+ensure they have been analyzed correctly.
+
+Currently the criteria are:
+
+- 0.9: Minimum bisulfite conversion rate.
+- 0.7: Minimum fraction of CpG sites covered.
+
+Assuming a Poisson distribution for the mapped reads (the most conservative
+assumption here), a fraction of 0.632 of CpG sites covered implies at least a 1x
+average coverage across the genome. Distributions of mapped reads are never
+Poisson, so requiring 0.7 of the sites to be covered at least once tends to
+ensure much deeper average coverage of sites.
+
+## Methylome features
 
 Moving forward, not all methylomes will have each kind of "feature" available
-through the track hub. The criteria are below (in progress). If you want something
-and you can't find it, possibly those features did not meet criteria. Please contact
-me to ask and I can check if they might have barely failed to meet the criteria
-and I might be able to adjust or provide them to you directly.
+through the track hub. The criteria are below (in progress). If you want
+something and you can't find it, possibly those features did not meet
+criteria. Please contact me to ask and I can check if they might have barely
+failed to meet the criteria and I might be able to adjust or provide them to you
+directly.
 
-## Hypomethylated regions (HMRs)
+### Hypomethylated regions (HMRs)
 
-These are identified with the `hmr` command in `dnmtools`, which is
-very similar to the tool I wrote for the Molaro (2011) paper. For
-MethBase, the analysis workflows attempt to identify HMRs in every
-high-quality methylome from a vertebrate species. This clearly won't
-make sense in all cases. In the most extreme example, cells with DNA
-methylation erased should not be understood in terms of "valleys" of
-low methylation. The approach I plan to implement will be to exclude
-HMRs when they seem to be driven by a different biological feature.
-This means identifying methylomes that are outliers. So far it seems
-like most methylomes with HMRs corresponding to promoters and
-enhancers have the following characteristics (which have been evident
-for the past 10 years):
+HMRs are valleys of low methylation in the background of high global methylation
+in healthy primary vertebrate methylomes. These are identified with the `hmr`
+command in `dnmtools`, which is very similar to the tool I wrote for the Molaro
+(2011) paper. For MethBase2, the analysis workflow attempts to identify HMRs in
+every high-quality methylome from a vertebrate species. These features don't
+make sense in all situations. In the most extreme example, cells with DNA
+methylation erased should not be understood in terms of "valleys" of low
+methylation. Currently the following criteria are used to ensure available sets
+of HMRs make sense:
 
 - Human: between 25K and 110K HMRs, with mean size between 750 bp and 4K bp.
 - Mouse: between 20K and 100K HMRs, with mean size between 750 bp and 3K bp.
 
-Eventually I plan to incorporate a sequential identification of PMDs
-and HMRs so that methylomes with PMDs can still have HMRs accurately
-identified. This will require revisiting some a fraction of the
-methylomes to re-run HMR identification.
+Criteria for other species will be updated here.
