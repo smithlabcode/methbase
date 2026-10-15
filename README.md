@@ -18,7 +18,7 @@ Browser.
 ## Data in MethBase2
 
 MethBase2 includes methylomes for the following genomes. **16,597** high-quality
-methylomes (2026-10-14).
+methylomes (2026-10-15).
 
 |  species              |  assembly                                                                                                                                                          |  count  |
 |  :-                   |  :-                                                                                                                                                                |  -:     |
