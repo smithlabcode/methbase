@@ -17,12 +17,12 @@ Browser.
 
 ## Data in MethBase2
 
-MethBase2 includes methylomes for the following genomes. **16,984** high-quality
-methylomes (2026-11-18).
+MethBase2 includes methylomes for the following genomes. **17,066** high-quality
+methylomes (2026-11-20).
 
 |  species              |  assembly                                                                                                                                                          |  count  |
 |  :-                   |  :-                                                                                                                                                                |  -:     |
-|  Mouse                |  [mm39](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=mm39&position=lastDbPos)          |  6891   |
+|  Mouse                |  [mm39](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=mm39&position=lastDbPos)          |  6973   |
 |  Human                |  [hg38](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=hg38&position=lastDbPos)          |  6704   |
 |  Pig                  |  [susScr11](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=susScr11&position=lastDbPos)  |  750    |
 |  Cow                  |  [bosTau9](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http%3A%2F%2Fsmithlab.usc.edu%2Ftrackdata%2Fmethylation%2Fhub.txt&genome=bosTau9&position=lastDbPos)    |  620    |
