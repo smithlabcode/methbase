@@ -1,13 +1,13 @@
-# MethBase2
+# Methbase
 
-Thousands of high-quality uniformly analyzed methylomes.
+Methbase v2.0: Thousands of high-quality uniformly analyzed methylomes.
 
-The UCSC Genome Browser provides visualization for methylomes in MethBase2.
+The UCSC Genome Browser provides visualization for methylomes in Methbase.
 
 A track hub organized by SRA Study can be turned on for human hg38 with this
 [link](http://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http://smithlab.usc.edu/trackdata/methylation/hub.txt&genome=hg38&position=lastDbPos).
 
-This track hub URL can be used to load MethBase2 by SRA Study in any UCSC Genome
+This track hub URL can be used to load Methbase by SRA Study in any UCSC Genome
 Browser mirror:
 ```text
 http://smithlab.usc.edu/trackdata/methylation/hub.txt
@@ -15,9 +15,9 @@ http://smithlab.usc.edu/trackdata/methylation/hub.txt
 You can also find it among the public hubs in the list at the UCSC Genome
 Browser.
 
-## Data in MethBase2
+## Data in Methbase
 
-MethBase2 includes methylomes for the following genomes. **17,079** high-quality
+Methbase includes methylomes for the following genomes. **17,079** high-quality
 methylomes (2026-11-23).
 
 |  species              |  assembly                                                                                                                                                          |  count  |
@@ -87,7 +87,7 @@ directly.
 HMRs are valleys of low methylation in the background of high global methylation
 in healthy primary vertebrate methylomes. These are identified with the `hmr`
 command in `dnmtools`, which is very similar to the tool I wrote for the Molaro
-(2011) paper. For MethBase2, the analysis workflow attempts to identify HMRs in
+(2011) paper. For Methbase, the analysis workflow attempts to identify HMRs in
 every high-quality methylome from a vertebrate species. These features don't
 make sense in all situations. In the most extreme example, cells with DNA
 methylation erased should not be understood in terms of "valleys" of low
