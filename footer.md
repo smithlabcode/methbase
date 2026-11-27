@@ -1,4 +1,4 @@
-# Description
+## Description
 
 DNA methylation at CpG sites is a central epigenomic modification with a broad
 and diverse variety of functions across eukaryotes. DNA methylation involves a
@@ -19,14 +19,16 @@ appropriate for the species, the cell type and the data characteristics:
 hypomethylated regions (HMR), partially methylated domains (PMD), and
 allele-specific methylated regions (AMR).
 
-# Display Conventions and Configuration
+**Ask questions about Methbase data [here](https://github.com/smithlabcode/methbase/issues).**
+
+## Display Conventions and Configuration
 
 The HMR, PMD, and AMR region calls are presented as BED blocks in tracks
 associated with each experimental sample. The read counts and percentage of
 methylated reads are also presented for reference as bigWig graphs.  See the
 References section for explanations of methods behind each track.
 
-# Methods
+## Methods
 
 Methbase collects publicly available whole-genome bisulfite sequencing runs
 from the NCBI Sequence Read Archive and reprocesses all of them through one
@@ -40,7 +42,7 @@ in practice implies well above 1x average coverage.
 This track hub is made from the data in Methbase at USC by the Smith Lab and
 mirrored locally for faster access.
 
-# Data Access
+## Data Access
 
 The data can be explored interactively in table format with the Table Browser or
 the Data Integrator and exported from there to spreadsheet or tab-sep tables.
@@ -48,15 +50,13 @@ From scripts, the data from individual tracks can be accessed through our API,
 but identifying specific subtracks from the thousands available may be difficult
 without the faceted interface presented here.
 
-# Credits
+## Credits
 
 Thanks to Andrew D. Smith and the Smith lab at the University of Southern
 California for building Methbase and for making these analyses available. The
-collection is maintained at: https://github.com/smithlabcode/methbase Please use
-"Issues" at that github repo to ask questions about the data and methods or
-contact Andrew directly.
+collection is maintained [here](https://github.com/smithlabcode/methbase).
 
-# References
+## References
 
 Original Methbase:
 
@@ -95,7 +95,7 @@ Pipeline components (DNMTools):
 
 Andrew D. Smith (2026). https://github.com/smithlabcode/dnmtools
 
-# Column headings
+## Column headings
 
 - accession: Experiment accession for the corresponding record in SRA. This is
   the primary key identifying each methylome.
