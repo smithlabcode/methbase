@@ -1,6 +1,6 @@
 ---
-name: Metadata correction for one or more methylomes
-about: Indicate metadata that was either incorrect in SRA or incorrectly inferred
+name: Metadata correction
+about: Tell us about incorrect metadata for one or more methylomes
 title: ''
 labels: ''
 assignees: ''
